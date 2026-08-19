@@ -2,9 +2,11 @@
 
 The Minecraft data pack, ``Bat No-Spawning,'' prevents bats from spawning.
 
+Works in both single-player worlds and multiplayer servers.
+
 コウモリのスポーンを止めるマインクラフトのデータパックです。
 
-Works in both single-player worlds and multiplayer servers.
+シングル・マルチのどちらにも対応しています。
 
 ## Latest Version
 
