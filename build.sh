@@ -1,5 +1,12 @@
 #! /bin/sh
 
+#
+# Bat No-Spawning
+#
+# The Minecraft data pack, ``Bat No-Spawning,'' prevents bats from spawning.
+# https://github.com/cvsync/BatNoSpawning
+#
+
 VER_MAJOR=1
 VER_MINOR=0
 VER_REV=0
