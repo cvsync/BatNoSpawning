@@ -1,19 +1,25 @@
 # Bat No-Spawning
 
-The Minecraft data pack, ``Bat No-Spawning,'' prevents bats from spawning.
+A Minecraft data pack that prevents bats from spawning.
 
-Works in both single-player worlds and multiplayer servers.
+It works in both single-player worlds and multiplayer servers.
 
 コウモリのスポーンを止めるマインクラフトのデータパックです。
 
-シングル・マルチのどちらにも対応しています。
+シングルプレイとマルチプレイのどちらにも対応しています。
 
-## Latest Version
+## Latest Release
 
 1.0.0
 
-## For Java Edition (26.1/26.1.1/26.1.2/26.2 or later)
+## Java Edition
 
-1.) Download `BatNoSpawning.zip` from the `1.0.0` directory.
+### 26.1/26.1.1/26.1.2/26.2 or later
 
-2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\saves\<World>\datapacks`
+1. Download `BatNoSpawning.zip` from the `1.0.0` directory.
+
+2. Place the downloaded file in your Minecraft `datapacks` folder.
+
+On Windows, the default location is:
+
+`C:\Users\<Username>\AppData\Roaming\.minecraft\saves\<World>\datapacks`
