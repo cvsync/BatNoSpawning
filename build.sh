@@ -3,7 +3,7 @@
 #
 # Bat No-Spawning
 #
-# The Minecraft data pack, ``Bat No-Spawning,'' prevents bats from spawning.
+# A Minecraft data pack that prevents bats from spawning.
 # https://github.com/cvsync/BatNoSpawning
 #
 
