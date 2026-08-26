@@ -2,6 +2,6 @@
   "pack": {
     "min_format": [ XXXMINPACKFORMATXXX, XXXMINPACKFORMATMINORXXX ],
     "max_format": [ XXXMAXPACKFORMATXXX, XXXMAXPACKFORMATMINORXXX ],
-    "description": "Bat No-Spawning (Created by OkanGames2525) vXXXMAJORXXX.XXXMINORXXX.XXXREVXXX"
+    "description": "Bat No-Spawning vXXXMAJORXXX.XXXMINORXXX.XXXREVXXX"
   }
 }
