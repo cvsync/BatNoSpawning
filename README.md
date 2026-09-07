@@ -1,3 +1,5 @@
+<kbd><img src="./BatNoSpawning/pack.png" alt="resource pack icon"></img></kbd>
+
 # Bat No-Spawning
 
 A Minecraft data pack that prevents bats from spawning.
