@@ -9,10 +9,10 @@
 
 VER_MAJOR=1
 VER_MINOR=0
-VER_REV=0
+VER_REV=1
 
-MAX_PACK_FORMAT=120
-MAX_PACK_FORMAT_MINOR=0
+MAX_PACK_FORMAT=107
+MAX_PACK_FORMAT_MINOR=1
 
 MIN_PACK_FORMAT=88
 MIN_PACK_FORMAT_MINOR=0
@@ -39,7 +39,7 @@ rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/data
 mkdir -p ${TMPDIR}/data/minecraft ${TMPDIR}/data/minecraft/tags ${TMPDIR}/data/minecraft/tags/block
 cp ${TEXTURES_SRCDIR}/bats_spawnable_on.json ${TEXTURES_DSTDIR}/bats_spawnable_on.json
-#cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAXPACKFORMATXXX/${MAX_PACK_FORMAT}/g" | \
