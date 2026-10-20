@@ -36,10 +36,10 @@ TEXTURES_SRCDIR=${RESOURCE_PACK_NAME}/data/minecraft/tags/block
 TEXTURES_DSTDIR=${TMPDIR}/data/minecraft/tags/block
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
-mkdir -p ${TMPDIR} ${TMPDIR}/data
-mkdir -p ${TMPDIR}/data/minecraft ${TMPDIR}/data/minecraft/tags ${TMPDIR}/data/minecraft/tags/block
+mkdir -p ${TMPDIR} ${TMPDIR}/data ${TMPDIR}/data/minecraft ${TMPDIR}/data/minecraft/tags
+mkdir -p ${TMPDIR}/data/minecraft/tags/block
 cp ${TEXTURES_SRCDIR}/bats_spawnable_on.json ${TEXTURES_DSTDIR}/bats_spawnable_on.json
-cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack.png
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAXPACKFORMATXXX/${MAX_PACK_FORMAT}/g" | \
